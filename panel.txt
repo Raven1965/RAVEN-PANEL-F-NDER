@@ -10,6 +10,7 @@ usuario/
 moderator/
 webadmin/
 adminarea/
+wp-admin/
 bb-admin/
 adminLogin/
 admin_area/
