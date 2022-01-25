@@ -55,12 +55,7 @@ for i in $panel ;do
 		echo
 		exit
 
-	else 
-		echo
-		printf "\e[96mADMİN PANEL BULUNAMADI :/"
-		echo
-		echo
-		exit
+	
 	fi	
 		
 		
