@@ -45,7 +45,7 @@ for i in $panel ;do
 	cat .code | grep HTTP | awk '{print $2}'>.code1
 	c1=$(cat .code1)
 	link=$(cat .code | grep '"' | tr -d '"')
-	if [[ $c1 == 200 ]];then
+	if [[ $c1 == 200 || $c1 == 301 ]];then
 	 	echo
 		printf "\e[34m[✓]\e[96mADMİN PANEL BULUNDU"
 		echo
